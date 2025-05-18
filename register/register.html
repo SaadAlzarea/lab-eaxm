@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="register">
+        <p class="titel">Register</p>
+        <div class="form">
+          <!-- full name -->
+          <div class="item">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" placeholder="Full Name" />
+            <span class="span" id="fullname-span">Full Name</span>
+          </div>
+          <!-- username -->
+          <div class="item">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="username" />
+            <span class="span" id="username-span">Username</span>
+          </div>
+          <!-- email -->
+          <div class="item">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email" />
+            <span class="span" id="email-span">Email</span>
+          </div>
+          <!-- password -->
+          <div class="item">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Password" />
+            <span class="span" id="password-span">Password</span>
+          </div>
+          <!-- confirm password -->
+          <div class="item">
+            <label for="conPassord">Confirm Password:</label>
+            <input
+              type="password"
+              id="conPassword"
+              placeholder="Confirm Password"
+            />
+            <span class="span" id="conPassword-span">Confirm Password</span>
+          </div>
+          <!-- btn -->
+          <div class="item">
+            <button class="register-btn" id="register-btn">Register</button>
+          </div>
+          <!-- have account -->
+          <div class="item">
+            <p> Already have account ? <a href="">press here!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./register.js"></script>
+  </body>
+</html>
